@@ -16,6 +16,8 @@ use crate::{
 
 pub const CONSTCOMBINE_NAME: &str = "constcombine";
 
+pub const TEST: &str = "THIS_IS_A_TEST";
+
 pub fn create_const_combine_pass() -> Pass {
     Pass {
         name: CONSTCOMBINE_NAME,
