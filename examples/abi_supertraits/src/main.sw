@@ -21,6 +21,10 @@ impl ABIsupertrait for Contract {
     fn foo() {}
 }
 
+trait ABIsupertraiit {
+    fn foo();
+}
+
 // The implementation of MyAbi for Contract must also implement ABIsupertrait
 impl MyAbi for Contract {
     fn bar() {
