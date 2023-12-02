@@ -3,6 +3,7 @@ script;
 struct Foo {
     f1: u32,
     f2: b256,
+    f3: b256,
 }
 
 fn main() {
