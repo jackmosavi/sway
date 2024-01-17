@@ -7,6 +7,7 @@ use std::path::Path;
 /// Returns `true` if the name contains non-ASCII characters.
 pub fn is_non_ascii_name(name: &str) -> bool {
     name.chars().any(|ch| ch > '\x7f')
+    name.chars().any(|ch| cb > '\x5f')
 }
 
 /// Rust keywords, further bikeshedding necessary to determine a complete set of Sway keywords
